@@ -149,7 +149,7 @@ export function Button({
         {icon !== undefined && iconPosition === 'left' && (
           <LeftIconContainer>
             <TypographyIcon
-              name={icon}
+              icon={icon}
               size={theme.button.iconSize}
               color={textColor}
             />
