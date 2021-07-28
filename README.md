@@ -55,4 +55,4 @@ exo-modal
 
 ### 🤖 Commande
 
-`yarn start`: start Storybook
+`yarn start`: start Expo
