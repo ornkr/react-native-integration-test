@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import React, { useState } from 'react';
-import { StyleSheet, View } from 'react-native';
-import { Button } from './@ornikar/kitt';
+import { StyleSheet, View, Text } from 'react-native';
+import { Button, Typography } from './@ornikar/kitt';
 import { Modal } from './Modal/Modal';
 
 const styles = StyleSheet.create({
@@ -14,15 +14,95 @@ const styles = StyleSheet.create({
 });
 
 export default function App() {
-  const [visibleModal, setVisibleModal] = useState(null);
+  const [visibleModal, setVisibleModal] = useState(false);
 
   return (
     <View style={styles.container}>
       <StatusBar style="auto" />
-      <Button onPress={() => setVisibleModal('simple')}>
+      <Button onPress={() => setVisibleModal((prevState) => !prevState)}>
         {'Open up Modal "simple"'}
       </Button>
-      <Modal visible={visibleModal === 'simple'} />
+      <Modal
+        visible={visibleModal}
+        title="Titre"
+        showTitle
+        showFooter
+        primaryButtonLabel="Primary"
+        secondaryButtonLabel="Secondary"
+        onClosePress={() => setVisibleModal(false)}
+      >
+        <Typography.Text>
+          Reference site about Lorem Ipsum, giving information on its origins,
+          as well as a random Lipsum generator.
+        </Typography.Text>
+        <Button stretch onPress={() => {}}>
+          Random button
+        </Button>
+        <Typography.Text>
+          Reference site about Lorem Ipsum, giving information on its origins,
+          as well as a random Lipsum generator.
+        </Typography.Text>
+        <Button stretch onPress={() => {}}>
+          Random button
+        </Button>
+        <Typography.Text>
+          Reference site about Lorem Ipsum, giving information on its origins,
+          as well as a random Lipsum generator.
+        </Typography.Text>
+        <Button stretch onPress={() => {}}>
+          Random button
+        </Button>
+        <Typography.Text>
+          Reference site about Lorem Ipsum, giving information on its origins,
+          as well as a random Lipsum generator.
+        </Typography.Text>
+        <Button stretch onPress={() => {}}>
+          Random button
+        </Button>
+        <Typography.Text>
+          Reference site about Lorem Ipsum, giving information on its origins,
+          as well as a random Lipsum generator.
+        </Typography.Text>
+        <Button stretch onPress={() => {}}>
+          Random button
+        </Button>
+        <Typography.Text>
+          Reference site about Lorem Ipsum, giving information on its origins,
+          as well as a random Lipsum generator.
+        </Typography.Text>
+        <Button stretch onPress={() => {}}>
+          Random button
+        </Button>
+        <Typography.Text>
+          Reference site about Lorem Ipsum, giving information on its origins,
+          as well as a random Lipsum generator.
+        </Typography.Text>
+        <Button stretch onPress={() => {}}>
+          Random button
+        </Button>
+        <Typography.Text>
+          Reference site about Lorem Ipsum, giving information on its origins,
+          as well as a random Lipsum generator.
+        </Typography.Text>
+        <Button stretch onPress={() => {}}>
+          Random button
+        </Button>
+        <Typography.Text>
+          Reference site about Lorem Ipsum, giving information on its origins,
+          as well as a random Lipsum generator.
+        </Typography.Text>
+        <Typography.Text>
+          Reference site about Lorem Ipsum, giving information on its origins,
+          as well as a random Lipsum generator.
+        </Typography.Text>
+        <Button stretch onPress={() => {}}>
+          Random button
+        </Button>
+        <Typography.Text>
+          Reference site about Lorem Ipsum, giving information on its origins,
+          as well as a random Lipsum generator.
+        </Typography.Text>
+      </Modal>
     </View>
   );
 }
