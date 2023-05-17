@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
 });
 
 export default function App() {
-  const [visibleModal, setVisibleModal] = useState(null);
+  const [visibleModal, setVisibleModal] = useState<string>();
 
   return (
     <View style={styles.container}>
