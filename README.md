@@ -34,7 +34,7 @@ _NB: Sauf composant déjà fait, on peut ajouter toutes librairies qu'on jugera 
 
 ### 👩‍🎨 Design
 
-[Lien vers le design](https://www.figma.com/file/LRm56XsyhvjtBYm4pY2wqF/Ornikar---App---Design-System?node-id=10245%3A151189)
+[Lien vers le design](https://www.figma.com/file/S9j3lzxmLImOp0R8RHX0pt/Kitt-pre-2021?type=design&node-id=308-697&mode=design&t=VURDXKLIIhOx6PXm-0)
 
 ### 🏯 Structure du Projet
 
