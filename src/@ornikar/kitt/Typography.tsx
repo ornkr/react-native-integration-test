@@ -3,7 +3,7 @@ import { Text, TextProps } from 'react-native';
 import { Icon, IconProps } from './Icon';
 import { lateOceanColorPalette } from './lateOceanPalette';
 
-type TypographyVariant = 'regular' | 'bold' | 'italic';
+type TypographyVariant = 'regular' | 'bold';
 export type TypographyColor =
   | 'black'
   | 'black-light'
@@ -59,7 +59,13 @@ export const Typography = {
     return (
       <Text
         {...otherProps}
-        style={[style || {}, { color: typographyLateOceanTheme.colors[color] }]}
+        style={[
+          style || {},
+          {
+            color: typographyLateOceanTheme.colors[color],
+            fontWeight: variant === 'bold' ? 'bold' : 'normal',
+          },
+        ]}
       />
     );
   },
