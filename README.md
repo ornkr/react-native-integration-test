@@ -40,17 +40,10 @@ _NB: Sauf composant déjà fait, on peut ajouter toutes librairies qu'on jugera 
 
 ```
 exo-modal
-├── .storybook
 └── src
     ├── composants
-    │ └── Modal                   - ✍️ Composant à implémenter
-    │   ├── index.js
-    │   ├── stories.js
-    │ └── ModalLaucher            - 🔘 Composant de test qui va toggler la Modal
-    │   ├── index.js
-    │   ├── stories.js
-    ├── App.tsx
-    └── index.tsx
+    │ └── Modal.tsx                   - ✍️ Composant à implémenter
+    └── App.tsx
 ```
 
 ### 🤖 Commande
