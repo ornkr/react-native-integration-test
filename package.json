@@ -1,5 +1,5 @@
 {
-  "main": "src/entry.js",
+  "main": "src/entry.tsx",
   "private": true,
   "prettier": {
     "singleQuote": true,
