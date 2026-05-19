@@ -34,7 +34,9 @@ _NB: Sauf composant déjà fait, on peut ajouter toutes librairies qu'on jugera 
 
 ### 👩‍🎨 Design
 
-[Lien vers le design](https://www.figma.com/design/0MmTbVntLyWM1ZDeaA8vF3/Ornikar---Dev---Test-d'int%C3%A9gration)
+[Lien vers le design](https://www.figma.com/design/yIKHo6rt3tYhFVCzmC5cGN/Kitt---Modals?node-id=1-104&t=zPtsJBaJrGoehHg5-1)
+
+MDP: OrniKarKitt
 
 ### 🏯 Structure du Projet
 
